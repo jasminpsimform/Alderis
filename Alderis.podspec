@@ -21,7 +21,7 @@ Pod::Spec.new do |spec|
   spec.social_media_url = "https://twitter.com/hashbang"
 
   spec.swift_versions = "5.0"
-  spec.platform     = :ios, "12.0"
+  spec.platform     = :ios, "11.0"
 
   spec.source       = { :git => "https://github.com/hbang/Alderis.git", :tag => "#{spec.version}" }
   spec.requires_arc = true
