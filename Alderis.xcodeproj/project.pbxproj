@@ -26,7 +26,6 @@
 		CF7750BE252203630069CC57 /* DialogButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF7750BD252203630069CC57 /* DialogButton.swift */; };
 		CF7750CF252433680069CC57 /* ColorPickerConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF7750CE252433680069CC57 /* ColorPickerConfiguration.swift */; };
 		CF7750D62524615D0069CC57 /* SeparatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF7750D52524615D0069CC57 /* SeparatorView.swift */; };
-		CF775122252852460069CC57 /* AlderisSDKCompatibility.h in Headers */ = {isa = PBXBuildFile; fileRef = CF775121252852110069CC57 /* AlderisSDKCompatibility.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CF79DA31251723C500F17BCB /* BottomSheetTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF79DA30251723C500F17BCB /* BottomSheetTransition.swift */; };
 		CFAFFC9124277CEE005AD4C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFAFFC9024277CEE005AD4C1 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
@@ -126,7 +125,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				CF73D33A241F9C23000B1B10 /* Alderis.h in Headers */,
-				CF775122252852460069CC57 /* AlderisSDKCompatibility.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
