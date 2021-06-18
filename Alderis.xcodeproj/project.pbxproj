@@ -12,6 +12,7 @@
 		56C74667242F722A003ED00A /* ColorPickerSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56C74666242F722A003ED00A /* ColorPickerSlider.swift */; };
 		56C74669242F75E3003ED00A /* ColorPickerNumericSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56C74668242F75E3003ED00A /* ColorPickerNumericSlider.swift */; };
 		94A2368C252B5951002B5D0B /* UIColorAdditions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94A2368B252B5951002B5D0B /* UIColorAdditions.swift */; };
+		95A8EF8B267C821300B8784B /* AlderisSDKCompatibility.h in Headers */ = {isa = PBXBuildFile; fileRef = CF775121252852110069CC57 /* AlderisSDKCompatibility.h */; };
 		CF73D33A241F9C23000B1B10 /* Alderis.h in Headers */ = {isa = PBXBuildFile; fileRef = CF73D338241F9C23000B1B10 /* Alderis.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CF73D344241F9C31000B1B10 /* ColorWell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF73D32D241E49EE000B1B10 /* ColorWell.swift */; };
 		CF73D345241F9C31000B1B10 /* ColorPickerMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE70280241CBDE700083903 /* ColorPickerMapViewController.swift */; };
@@ -125,6 +126,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CF73D33A241F9C23000B1B10 /* Alderis.h in Headers */,
+				95A8EF8B267C821300B8784B /* AlderisSDKCompatibility.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,7 +297,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -348,7 +350,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -371,7 +373,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = Alderis/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -405,7 +407,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = Alderis/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
